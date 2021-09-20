@@ -12,6 +12,11 @@
     margin: 0 auto;
 }
 
+.text1 {
+    color: #adadad;
+    font-size: 18px;
+}
+
 .mt-50 {
     margin-top: 50px;
 }
@@ -20,9 +25,9 @@
     margin-bottom: 30px;
 }
 
-.px-16 {
-    padding-left: 16px;
-    padding-right: 16px;
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .mr-5 {
@@ -40,62 +45,57 @@
     width: 160px;
 }
 
-.text1 {
-    color: #adadad;
-    font-size: 18px;
-}
-
 .brand li {
     display: inline-block;
     text-transform: uppercase;
 }
 
 nav ul li {
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 nav ul li:last-child {
     margin-right: 0;
 }
 
-.menu ul:hover li{
+li:hover {
     color: #000;
-    text-decoration: underline;
+    text-decoration: overline;
 }
 
 /* main */
 
+/* first block description */
 .content-high {
     position: relative;
 }
 
-.image1{
-    height: 550px;
+.image1 {
+    height: 590px;
     background-image: url(../img/banner.jpg);
 }
 
 .text-presentation {
     position: absolute;
-    bottom: 70px;
+    bottom: 100px;
     left: 90px;
     color: #ffff;
-    width: 100%;
 }
 
 .text-modify-1 {
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 400
 }
 
+/* second block with column */
 .high-section h1 {
     font-size: 40px;
     font-weight: 700;
 }
 
 .image-setup  {
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-    background-blend-mode: color;
+    background-blend-mode: color-burn;
     background-size: cover;
     background-position-y: center;
     border-radius: 20px;
@@ -106,19 +106,20 @@ nav ul li:last-child {
     font-weight: 400;
 }
 
+.image-columns-size {
+    height: 230px;
+}
+
 .image2 {
     background-image: url(../img/img-1.jpg);
-    height: 230px;
 }
 
 .image3 {
     background-image: url(../img/banner-2.jpg);
-    height: 230px;
 }
 
 .image4 {
     background-image: url(../img/img-3.jpg);
-    height: 230px;
     background-position: top;
 }
 
@@ -136,7 +137,7 @@ nav ul li:last-child {
 }
 
 /* footer */
-footer{
+footer {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
