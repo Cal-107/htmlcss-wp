@@ -136,7 +136,14 @@ nav ul li:last-child {
 }
 
 /* footer */
-footer {
-    height: 50px;
-    background-color: #8801fe;
+footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer > span {
+    color: red;
+    font-size: 25px;
+    vertical-align: sub;
 }
